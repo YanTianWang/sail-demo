@@ -1,0 +1,73 @@
+/*导航部分*/
+.nav {
+    width: 100%;
+    height: 100px;
+    background: rgba(255, 255, 255, 1);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    overflow: hidden;
+    /*transition: 0.3s;*/
+}
+
+.index {
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.12);
+}
+
+.nav .nav-logo {
+    height: 100%;
+    margin: 5px;
+    position: relative;
+    top: 30px;
+    right: 55px;
+    /*line-height: 80px;*/
+}
+
+.layui-container {
+    width: 1200px;
+    position: relative;
+    left: 0px;
+    /*padding-left: 50px;*/
+    /*box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.12);*/
+}
+
+.nav .layui-nav {
+    width: auto;
+    background: white;
+    position: relative;
+    /*left: 368px;*/
+    left: 500px;
+    top: -29px;
+    padding: 0 5px;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.nav .layui-nav .layui-nav-item {
+    display: inline-block;
+    margin: 0 10px;
+    /*line-height: 80px;*/
+}
+
+.nav .layui-nav * {
+    font-size: 18px;
+}
+
+/*.nav .layui-nav .layui-nav-item a {*/
+/*padding: 0 0;*/
+/*color: #000;*/
+/*}*/
+
+.nav .layui-nav .layui-this:after {
+    height: 3px;
+    background-color: #00B4FF;
+}
+
+.nav .layui-nav .layui-nav-item a:hover {
+    /*color: red;*/
+}
+
+
+
+
